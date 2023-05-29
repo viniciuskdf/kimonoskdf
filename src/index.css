@@ -135,6 +135,9 @@ nav .menu-btn,
 	letter-spacing: 2px;
 	color:#ffffff;
 }
+.header-heading{
+  text-align: center;
+}
 .header-btns{
     display: flex;
     margin-top: 40px;
