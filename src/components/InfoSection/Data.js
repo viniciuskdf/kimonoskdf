@@ -53,3 +53,22 @@ export const homeObjFour = {
     primary: false,
     darkText: true,
 }
+
+
+//section five
+export const homeObjFive = {
+    id: 'contacts',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Pioneering Software',
+    headline: "Push performance to new heights",
+    description: "All machines have the latest generation of the Microsoft Azure Kinect 3.0 3D camera! \nThe data collecting devices monitors your metabolism, diagnose carbohydrate and fat tolerance. You receive a personalized diet and nutrition based on your genetic. ",
+    buttonLabel: 'Join Now',
+    imgStart: false,
+    img: require('../../images/fitness_4.png'),
+    alt:"Young  muscular, tattooed black man with deacklocks. Posed in a starting running position. Dressed in black shorts, red tennis shoes and shirtless, expression focused facing the camera.",
+    dark: false,
+    primary: false,
+    darkText: true,
+}

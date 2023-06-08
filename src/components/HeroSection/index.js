@@ -24,25 +24,24 @@ const HeroSection = () => {
         // conferir se é isso
         <HeroContainer id='contact'> 
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4' /> */}
             </HeroBg>
             <HeroContent>
-                <HeroH1>The future to build your best version</HeroH1>
+                <HeroH1>O Kimono dos Campeões</HeroH1>
                 <HeroP>
-                    Connecting your body with technology and science for results in record time
+                    Mais de 15 anos contribuindo com o esporte é para Poucos
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to='./contact' onMouseEnter={onHover} onMouseLeave={onHover}
+                    <Button to='//wa.me/5521964653565' onMouseEnter={onHover} onMouseLeave={onHover}
                         primary='true'
                         dark='true'
-                        // se continuar como contato pode apagar o que está embaixo
                         smooth={true}
                         duration={500}
                         spy={true}
                         exact='true'
-                        offset={-80}
+                        offset={-30}
                     >
-                        Join Now {hover ? <ArrowForward /> : <ArrowRight />}
+                        Conheça Nossos Produtos {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>

@@ -100,7 +100,7 @@ return (
  
   <Container>
   <FormWrap>
-      <Icon to='/'>GymTech</Icon>
+      <Icon to='/'>Kimonos KDF</Icon>
  
     <FormContent>
 

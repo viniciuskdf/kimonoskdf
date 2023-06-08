@@ -14,6 +14,30 @@ import {
     NavBtnLink,
     NavLinksContact
 } from './NavbarElements';
+import {
+    FaFacebook,
+    FaInstagram,
+    FaWhatsapp,
+    FaYoutube, FaLinkedin,
+    FaTwitter
+}
+    from 'react-icons/fa';
+import {
+    FooterContainer,
+    FooterWrap,
+    FooterLinksContainer,
+    FooterLinksWrapper,
+    FooterLinkItems,
+    FooterLinkTitle,
+    FooterLink,
+    SocialMedia,
+    SocialMediaWrap,
+    SocialLogo,
+    WebsiteRights,
+    SocialIcons,
+    SocialIconLink
+}
+    from '../Footer/FooterElements';
 
 const Navbar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false);
@@ -39,57 +63,30 @@ const Navbar = ({ toggle }) => {
             <IconContext.Provider value={{ color: '#fff' }}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to='/' onClick={toggleHome}>GymTech</NavLogo>
+                        <NavLogo to='/' onClick={toggleHome}>Kimonos KDF</NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>
                         <NavMenu>
-                            <NavItem>
-                                <NavLinks
-                                    to='about'
-                                    smooth={true}
-                                    duration={500}
-                                    spy={true}
-                                    exact='true'
-                                    offset={-80}
-                                >
-                                    About</NavLinks>
-                            </NavItem>
+                            
+                        <SocialIcons>
+                            <SocialIconLink href="//wa.me/5521964653565" target="_blank"
+                                aria-label="Whatsapp">
+                                <FaWhatsapp />
+                            </SocialIconLink>
 
-                            <NavItem>
-                                <NavLinks to='locations'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}>Locations</NavLinks>
-                            </NavItem>
+                            <SocialIconLink href="//www.facebook.com/kimonoskdf/" target="_blank"
+                                aria-label="Facebook">
+                                <FaFacebook />
+                            </SocialIconLink>
 
-                            <NavItem>
-                                <NavLinks to='memberships'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}>Memberships</NavLinks>
-                            </NavItem>
+                            <SocialIconLink href="//https://www.instagram.com/kimonoskdf/" target="_blank"
+                                aria-label="Instagram">
+                                <FaInstagram />
+                            </SocialIconLink>
 
-                            <NavItem>
-                                <NavLinks to='howitworks'
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact='true'
-                                offset={-80}>How it Works</NavLinks>
-                            </NavItem>
-
-                            <NavItem>
-                                <NavLinksContact to='/contact'>Contact</NavLinksContact>
-                            </NavItem>
+                        </SocialIcons>
                         </NavMenu>
-                        <NavBtn>
-                            <NavBtnLink to='/login'>Log In</NavBtnLink>
-                        </NavBtn>
                     </NavbarContainer>
                 </Nav>
             </IconContext.Provider>

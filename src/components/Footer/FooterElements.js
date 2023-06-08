@@ -6,7 +6,7 @@ background-color: #101522;
 `;
 
 export const FooterWrap = styled.div`
-padding: 48px 24px;
+padding: 28px 24px;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -76,7 +76,7 @@ export const SocialMediaWrap = styled.div`
     justify-content : space-between;
     align-items : center;
     max-width: 1100px;
-    margin: 40px auto 0 auto;
+    margin: 00px auto 0 auto;
 
     @media screen and (max-width: 820px){ 
     flex-direction: column;
@@ -103,7 +103,7 @@ export const SocialIcons = styled.div`
     display: flex;
     justify-content: space-between ;
     align-items: center;
-    width: 240px;
+    width: 80px;
 `;
 
 export const SocialIconLink = styled.a` 
